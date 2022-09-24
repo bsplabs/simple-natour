@@ -1,0 +1,10 @@
+# Private Node Modules
+node_modules/
+
+# Environments
+.env
+env/
+config.env
+
+# Any Test Folders
+dev-data/
