@@ -10,6 +10,8 @@ process.on('uncaughtException', err => {
 
 dotenv.config({path: './config.env'});
 
+process.env.TZ = "Asia/Bangkok";
+
 const app = require('./app');
 
 // console.log(process.env);
